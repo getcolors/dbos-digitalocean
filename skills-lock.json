@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "package-dbos-green": {
+      "source": "getcolors/dbos",
+      "sourceType": "github",
+      "skillPath": "skills/package-dbos-green/SKILL.md",
+      "computedHash": "8fecb5e456440cbbb061167976bba2524a281883c5cfbbc833992545ed8754f1"
+    }
+  }
+}
