@@ -25,7 +25,8 @@ compute-prevent-destroy: true
 # --- DBOS reference application ---------------------------------------------
 
 dbos-host: bigconfig.space
-dbos-image: ghcr.io/getcolors/dbos:4.25.14
+# Immutable digest of the CI-built 4.25.14 production image.
+dbos-image: ghcr.io/getcolors/dbos@sha256:e4824320dc6f4f7b542fb364d977b39341ac8dd892e1a30d09ce6a89af3130a6
 dbos-version: 4.25.14
 dbos-version-source-url: https://www.npmjs.com/package/@dbos-inc/dbos-sdk/v/4.25.14
 dbos-version-discovered: 2026-08-15
