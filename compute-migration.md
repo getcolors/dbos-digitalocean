@@ -1,6 +1,6 @@
 # Shared compute migration
 
-Installed `getcolors/dbos` revision `bc293e92a6fbbf55ba8042b3515ba25ba964a88c`. Root launchers match the
+Installed `getcolors/dbos` revision `57697e8e23808771505613bac1b3eb94aa11258c`. Root launchers match the
 installed skill payloads from a verified Skills CLI installation.
 The existing lockfile records that installation.
 
@@ -26,3 +26,8 @@ Configuration changes:
 
 The external provider key reference is preserved. Verify its matching local
 identity and make ssh-private-key-path explicit before live application access.
+
+The repeated-delete fix accepts only a validated destroyed deployment result
+for delete, then stops before cleanup. Credential checks still run first.
+No key files or state were read to validate this payload refresh; a sanitized
+temporary build passed, and the committed desired-state bytes are unchanged.
