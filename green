@@ -45,7 +45,7 @@
   "Minimum io.github.getcolors/dbos contract this launcher requires. Guarded
   at run time so a stale pin fails loudly instead of rendering templates from an
   older commit."
-  1)
+  2)
 
 ;; Managed by `bb pin` — do not edit by hand.
 ;;
@@ -53,7 +53,7 @@
 ;; cannot resolve its own library says so rather than inventing a SHA or
 ;; silently falling back to whatever is lying around. `bb pin` refuses to stamp
 ;; a dirty or unpushed HEAD for the same reason.
-(def ^:private dbos-sha "9b34dc1e3a129dc1686203e3ea2f6d89464d9016")
+(def ^:private dbos-sha "e32bb69911063af987c496c06ebce4887e6da319")
 
 (def ^:private dbos-git-url "https://github.com/getcolors/dbos.git")
 (def ^:private once-git-url "https://github.com/getcolors/once.git")
